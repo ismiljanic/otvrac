@@ -1,0 +1,504 @@
+Club ID, Club Name, Stadium, Location, Established Year, Manager, League Position, Wins, Losses, Total Players, Season Year, Player ID, Player Name, Position, Age, Nationality, Goals Scored, Assists, Matches Played, Salary
+clubid,clubname,stadium,location,establishedyear,manager,leagueposition,wins,losses,totalplayers,seasonyear,playerid,playername,position,age,nationality,goalsscored,assists,matchesplayed,salary
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,1,Gianluigi Donnarumma,Goalkeeper,26,Italian,0,0,8,120000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,2,Achraf Hakimi,Defender,26,Moroccan,5,3,8,100000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,3,Marquinhos,Defender,30,Brazilian,2,1,8,150000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,4,Presnel Kimpembe,Defender,29,French,1,0,8,95000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,5,Nuno Mendes,Defender,23,Portuguese,2,4,8,85000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,6,Marco Verratti,Midfielder,32,Italian,4,6,8,130000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,7,Vitinha,Midfielder,24,Portuguese,5,2,8,80000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,8,Fabián Ruiz,Midfielder,28,Spanish,6,3,8,90000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,9,Neymar Jr.,Forward,33,Brazilian,12,8,8,200000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,10,Kylian Mbappé,Forward,26,French,20,10,8,250000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,11,Lionel Messi,Forward,37,Argentinian,8,9,8,300000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,12,Hugo Ekitike,Forward,22,French,4,3,8,70000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,13,Carlos Soler,Midfielder,27,Spanish,3,5,8,80000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,14,Ismaël Gharbi,Forward,21,French,2,2,8,65000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,15,Danilo Pereira,Midfielder,33,Portuguese,1,1,8,85000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,16,Julian Draxler,Midfielder,31,German,3,2,8,75000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,17,Edouard Michut,Midfielder,22,French,1,1,8,60000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,18,Sergio Ramos,Defender,39,Spanish,2,1,8,90000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,19,Keylor Navas,Goalkeeper,37,Costa Rican,0,0,8,80000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,20,Colin Dagba,Defender,25,French,0,1,8,70000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,21,Thilo Kehrer,Defender,27,German,1,0,8,80000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,22,Teddy Alloh,Defender,20,Ivorian,0,0,6,60000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,23,Eric Junior Dina Ebimbe,Midfielder,23,French,2,2,8,70000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,24,Ezequiel Lavezzi,Forward,38,Argentinian,5,3,3,75000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,25,Dani Alves,Defender,41,Brazilian,1,0,6,80000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,26,Xavi Simons,Midfielder,22,Dutch,3,1,8,70000.00
+1,PSG,Parc des Princes,Paris,1970,Luis Enrique,1,6,0,27,24/25,27,Presnel Kimpembe,Defender,29,French,1,1,8,95000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,91,Alexander Nübel,Goalkeeper,28,German,0,0,8,90000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,92,Axel Disasi,Defender,26,French,2,1,8,80000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,93,Wissam Ben Yedder,Forward,34,French,15,6,8,120000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,94,Kevin Volland,Forward,31,German,10,7,8,95000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,95,Youssouf Fofana,Midfielder,24,French,3,2,8,85000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,96,Jemerson,Defender,31,Brazilian,1,0,8,75000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,97,Benoît Badiashile,Defender,23,French,2,1,8,90000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,98,Mohamed Camara,Midfielder,26,Malian,4,3,8,80000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,99,Niko Kovac,Manager,52,Croatian,0,0,8,100000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,100,Sofiane Diop,Midfielder,23,French,6,4,8,70000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,101,Gelson Martins,Forward,28,Portuguese,3,5,8,85000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,102,Eliesse Ben Seghir,Forward,20,French,8,2,8,60000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,103,Myron Boadu,Forward,24,Dutch,7,3,8,75000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,104,Ruben Aguilar,Defender,31,French,1,1,8,70000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,105,Youssef Chermiti,Forward,19,Portuguese,5,3,8,65000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,106,Chrislain Matsima,Defender,22,French,0,0,8,60000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,107,Thomas Lemar,Midfielder,29,French,3,4,8,95000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,108,Lautaro Martínez,Forward,27,Argentinian,12,8,8,130000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,109,Danilho Doekhi,Defender,26,Dutch,0,1,8,70000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,110,Vincent Koziello,Midfielder,29,French,2,1,8,75000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,111,Eli Wissa,Forward,24,Congolese,6,2,8,70000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,112,Enzo Millot,Midfielder,23,French,1,2,8,60000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,113,Wojciech Szczęsny,Goalkeeper,35,Polish,0,0,8,110000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,114,Moussa Sylla,Forward,24,French,5,2,8,65000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,115,Kenny Tete,Defender,28,Dutch,0,1,8,70000.00
+2,AS Monaco,Stade Louis II,Monaco,1924,Adolf Hütter,2,6,0,27,24/25,116,Jean-Kévin Augustin,Forward,27,French,7,4,8,75000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,28,Pau Lopez,Goalkeeper,30,Spanish,0,0,8,90000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,29,Jorge Sampaoli,Defender,32,Argentinian,1,1,8,80000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,30,Boubacar Kamara,Defender,25,French,3,2,8,85000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,31,Leonardo Balerdi,Defender,26,Argentinian,2,1,8,75000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,32,Nuno Tavares,Defender,23,Portuguese,4,3,8,70000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,33,Mattéo Guendouzi,Midfielder,24,French,5,6,8,90000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,34,Dimitri Payet,Midfielder,36,French,8,7,8,110000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,35,Gerson,Midfielder,26,Brazilian,2,3,8,80000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,36,Valentin Rongier,Midfielder,29,French,4,2,8,85000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,37,Cengiz Ünder,Forward,26,Turkish,10,4,8,95000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,38,Arkadiusz Milik,Forward,30,Polish,12,5,8,100000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,39,Alexis Sanchez,Forward,36,Chilean,8,6,8,120000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,40,Luis Suarez,Forward,26,Colombian,7,3,8,85000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,41,Salim Ben Seghir,Forward,21,French,1,2,8,60000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,42,Isaak Touré,Defender,23,French,0,1,8,65000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,43,Gonzalo Guedes,Forward,28,Portuguese,9,5,8,90000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,44,Pape Gueye,Midfielder,25,Senegalese,1,0,8,70000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,45,Luan Peres,Defender,29,Brazilian,1,2,8,75000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,46,Duje Ćaleta-Car,Defender,28,Croatian,3,0,8,80000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,47,Sead Kolašinac,Defender,30,Bosnian,2,1,8,75000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,48,Steve Mandanda,Goalkeeper,39,French,0,0,6,60000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,49,Michaël Cuisance,Midfielder,24,French,4,3,7,70000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,50,Alvaro Gonzalez,Defender,34,Spanish,1,0,8,65000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,51,Maxime Lopez,Midfielder,25,French,2,4,8,70000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,52,Paul Lirola,Defender,26,Spanish,0,0,8,75000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,53,Blaise Matuidi,Midfielder,37,French,1,2,3,60000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,54,Rongier,Midfielder,29,French,4,2,8,85000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,55,Sergio Ramos,Defender,39,Spanish,2,1,8,90000.00
+3,Marseille,Stade Vélodrome,Marseille,1899,Roberto De Zerbi,3,5,1,32,24/25,56,Jonathan Clauss,Defender,31,French,3,5,8,80000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,57,Léo Jardim,Goalkeeper,29,Brazilian,0,0,8,80000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,58,José Fonte,Defender,41,Portuguese,2,0,8,90000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,59,Sven Botman,Defender,25,Dutch,3,2,8,100000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,60,Tiago Djalo,Defender,25,Portuguese,1,1,8,75000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,61,Gabriel Gudmundsson,Defender,24,Swedish,0,1,8,70000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,62,Bamba Dieng,Forward,25,Senegalese,8,5,8,85000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,63,Benjamin André,Midfielder,32,French,4,3,8,90000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,64,Xeka,Midfielder,27,Portuguese,3,2,8,70000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,65,Luka Elsner,Midfielder,23,Slovenian,2,1,8,60000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,66,Angel Gomes,Midfielder,24,English,5,4,8,80000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,67,Jonathan Bamba,Forward,29,French,10,6,8,95000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,68,Burak Yılmaz,Forward,39,Turkish,7,2,8,85000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,69,Timothy Weah,Forward,25,American,6,3,8,80000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,70,Renato Sanches,Midfielder,27,Portuguese,2,5,8,90000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,71,Jonathan David,Forward,25,Canadian,15,7,8,120000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,72,Yusuf Yazıcı,Midfielder,26,Turkish,4,3,8,80000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,73,Boubakary Soumaré,Midfielder,25,French,3,2,8,85000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,74,Ismaily,Defender,33,Brazilian,1,0,8,70000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,75,Mehmet Zeki Çelik,Defender,26,Turkish,2,1,8,80000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,76,Adama Soumaoro,Defender,30,Malian,0,1,8,65000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,77,Victor Osimhen,Forward,26,Nigerian,12,5,8,150000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,78,Jérémy Pied,Defender,35,French,0,0,8,60000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,79,Sada Thioub,Forward,26,Senegalese,3,2,8,70000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,80,Rafael Leão,Forward,25,Portuguese,10,5,8,100000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,81,Reinildo Mandava,Defender,29,Mozambican,1,0,8,75000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,82,Zeki Çelik,Defender,26,Turkish,0,2,8,70000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,83,Jérémy Doku,Forward,22,Belgian,6,4,8,90000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,84,Isaac Lihadji,Forward,22,French,4,1,8,65000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,85,Luca Netz,Defender,22,German,0,1,8,60000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,86,Lassina Traoré,Forward,23,Burkinabé,5,3,8,70000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,87,Ronaël Pierre-Gabriel,Defender,26,French,0,2,8,75000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,88,Elie Youan,Forward,23,French,2,2,8,60000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,89,Adil Aouchiche,Midfielder,23,French,3,3,8,70000.00
+4,Lille,Stade Pierre-Mauroy,Lille,1944,Bruno Genesio,4,4,2,35,24/25,90,Moussa Djenepo,Forward,27,Malian,4,1,8,65000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,117,Jean-Louis Leca,Goalkeeper,38,French,0,0,8,80000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,118,Jonathan Gradit,Defender,30,French,3,1,8,70000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,119,Kevin Danso,Defender,26,Austrian,2,0,8,80000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,120,Facundo Medina,Defender,25,Argentinian,1,1,8,75000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,121,Seko Fofana,Midfielder,29,Ivorian,5,4,8,90000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,122,Przemysław Frankowski,Midfielder,30,Polish,4,3,8,85000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,123,Corentin Jean,Forward,28,French,7,3,8,80000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,124,David Pereira da Costa,Midfielder,23,French,1,2,8,60000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,125,Wesley Saïd,Forward,27,French,6,2,8,75000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,126,Ignatius Ganago,Forward,25,Cameroonian,5,4,8,70000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,127,Jonathan Clauss,Defender,31,French,3,5,8,85000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,128,Loïc Rémy,Forward,37,French,4,2,8,80000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,129,Gautier Larsonneur,Goalkeeper,27,French,0,0,8,70000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,130,Salis Abdul Samed,Midfielder,23,Ghanaian,2,1,8,70000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,131,David Costa,Midfielder,29,Portuguese,3,2,8,75000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,132,Simba Ngoy,Forward,22,Congolese,2,1,8,65000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,133,Matus Bero,Midfielder,27,Slovak,4,3,8,70000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,134,Benjamin Bourigeaud,Midfielder,29,French,5,6,8,90000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,135,Stefano Okaka,Forward,34,Italian,10,3,8,85000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,136,Nicolas Douchez,Goalkeeper,43,French,0,0,8,60000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,137,Gautier Lloris,Defender,25,French,1,1,8,65000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,138,Mouctar Diakhaby,Defender,27,Guinean,2,0,8,70000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,139,Thomas Meunier,Defender,33,Belgian,3,2,8,90000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,140,Mouhamadou Dabo,Defender,29,French,0,1,8,65000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,141,Ismaël Boura,Defender,25,French,2,1,8,70000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,142,Mikael Damsgaard,Midfielder,24,Danish,4,5,8,80000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,143,Ruben Loftus-Cheek,Midfielder,29,English,3,4,8,95000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,144,Alfred Gomis,Goalkeeper,30,Senegalese,0,0,8,70000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,145,Yannick Cahuzac,Midfielder,36,French,2,1,8,60000.00
+5,Lens,Stade Bollaert-Delelis,Lens,1906,Will Still,5,3,0,32,24/25,146,Jean-Pierre Nsame,Forward,31,Cameroonian,9,4,8,80000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,200,Yann Karamoh,Forward,26,French,5,3,8,70000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,201,Predrag Rajkovic,Goalkeeper,29,Serbian,0,0,8,80000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,202,Thomas Foket,Defender,29,Belgian,1,1,8,75000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,203,Wout Faes,Defender,27,Belgian,2,0,8,80000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,204,Boulaye Dia,Forward,28,Senegalese,10,5,8,90000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,205,Moussa Doumbia,Midfielder,27,Malagasy,3,2,8,70000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,206,Hugo Ekitike,Forward,23,French,6,4,8,85000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,207,Azor Matusiwa,Midfielder,25,Dutch,2,1,8,65000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,208,Mitchell Van Bergen,Forward,25,Dutch,4,3,8,70000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,209,Hugo Lloris,Goalkeeper,37,French,0,0,8,90000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,210,Konan,Defender,30,Ivorian,1,0,8,75000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,211,Nathanaël Mbuku,Forward,22,French,4,2,8,60000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,212,Moreto Cassamá,Midfielder,25,Guinean,3,1,8,70000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,213,Xavier Chavalerin,Midfielder,31,French,2,2,8,65000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,214,Khalid Abdul-Majeed,Defender,28,Ghanaian,0,0,8,60000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,215,Anibal Chala,Defender,28,Ecuadorian,1,1,8,70000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,216,Tristan Dingomé,Midfielder,30,French,3,4,8,70000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,217,Dario Benedetto,Forward,34,Argentinian,7,3,8,85000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,218,Romain Metanire,Defender,33,Malagasy,1,0,8,60000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,219,Baptiste Santamaria,Midfielder,28,French,2,2,8,75000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,220,El Bilal Touré,Forward,23,Malian,8,3,8,80000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,221,Steeve Yago,Defender,30,Burkinabé,0,0,8,60000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,222,Renaud Ripart,Forward,30,French,3,1,8,70000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,223,Dylan Chambost,Midfielder,26,French,2,1,8,65000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,224,Dario Rondon,Forward,25,Venezuelan,4,2,8,70000.00
+6,Reims,Stade Auguste Delaune,Reims,1931,Luka Elsner,6,4,2,26,24/25,225,Rafael Leão,Forward,26,Portuguese,9,5,8,100000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,476,Anthony Lopes,Goalkeeper,34,Portuguese,0,0,8,80000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,477,Léo Dubois,Defender,30,French,1,1,8,70000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,478,Jason Denayer,Defender,29,Belgian,1,0,8,80000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,479,Marcelo,Defender,36,Brazilian,0,0,8,65000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,480,Sinaly Diomandé,Defender,23,Ivorian,0,0,8,60000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,481,Emerson,Defender,30,Brazilian,2,1,8,75000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,482,Maxence Caqueret,Midfielder,24,French,4,3,8,70000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,483,Bruno Guimarães,Midfielder,27,Brazilian,5,4,8,85000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,484,Houssem Aouar,Midfielder,26,French,6,5,8,80000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,485,Lucas Paquetá,Midfielder,27,Brazilian,8,4,8,90000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,486,Thiago Mendes,Midfielder,31,Brazilian,2,2,8,70000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,487,Romain Faivre,Midfielder,25,French,3,1,8,65000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,488,Karl Toko Ekambi,Forward,31,Cameroonian,10,6,8,85000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,489,Tino Kadewere,Forward,28,Zimbabwean,7,4,8,80000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,490,Moussa Dembélé,Forward,27,French,12,5,8,90000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,491,Kenny Tete,Defender,28,Dutch,0,2,8,70000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,492,Tanguy Ndombele,Midfielder,27,French,3,3,8,85000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,493,Malo Gusto,Defender,21,French,1,1,8,60000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,494,Sasha Boey,Defender,23,French,0,0,8,65000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,495,Rayan Cherki,Forward,20,French,5,3,8,70000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,496,Jeff Reine-Adélaïde,Midfielder,26,French,4,2,8,75000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,497,Lucas Tousart,Midfielder,26,French,2,1,8,65000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,498,Michaël Cuisance,Midfielder,25,French,3,1,8,60000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,499,Sergio Oliveira,Midfielder,31,Portuguese,2,2,8,70000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,500,Mamadou Doucouré,Defender,25,French,1,0,8,65000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,501,Michaël Alphonse,Defender,30,French,0,0,8,60000.00
+7,Lyon,Groupama Stadium,Lyon,1950,Pierre Sage,7,4,3,30,24/25,502,Milan Badelj,Midfielder,35,Croatian,1,1,8,60000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,175,Walter Benitez,Goalkeeper,31,Argentinian,0,0,8,90000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,176,Christophe Herelle,Defender,31,French,2,1,8,75000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,177,Jean-Clair Todibo,Defender,25,French,1,0,8,85000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,178,Hicham Boudaoui,Midfielder,24,Algerian,3,4,8,70000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,179,Kasper Dolberg,Forward,27,Danish,12,5,8,95000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,180,Amine Gouiri,Forward,24,French,10,6,8,90000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,181,Mario Lemina,Midfielder,30,Gabonese,2,3,8,80000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,182,Flavius Daniliuc,Defender,23,Austrian,1,0,8,65000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,183,Alexis Claude-Maurice,Midfielder,25,French,5,4,8,75000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,184,Justin Kluivert,Forward,26,Dutch,6,3,8,90000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,185,Youcef Atal,Defender,27,Algerian,3,2,8,80000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,186,Dante,Defender,39,Brazilian,1,0,8,60000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,187,Nicolas Pépé,Forward,28,Ivorian,10,7,8,120000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,188,Kastriot Dermaku,Defender,29,Albanian,0,1,8,65000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,189,Rony Lopes,Midfielder,28,Portuguese,4,3,8,75000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,190,Billal Brahimi,Forward,22,Algerian,3,2,8,70000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,191,Kephren Thuram,Midfielder,23,French,2,1,8,85000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,192,Danilo,Midfielder,31,Brazilian,4,2,8,80000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,193,Moustapha Sy,Defender,24,French,1,0,8,60000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,194,Youssouf Ndayishimiye,Defender,26,Burundian,0,0,8,70000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,195,Nicolas Colombo,Midfielder,30,French,2,1,8,65000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,196,Dylan Saint-Louis,Forward,28,French,3,4,8,70000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,197,Vitor Pereira,Midfielder,24,Brazilian,2,3,8,65000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,198,Marcin Bulka,Goalkeeper,25,Polish,0,0,8,70000.00
+8,Nice,Allianz Riviera,Nice,1904,Franck Haise,8,2,2,27,24/25,199,Danijel Subašić,Goalkeeper,39,Croatian,0,0,8,60000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,147,Alban Lafont,Goalkeeper,26,French,0,0,8,90000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,148,Fabien Centonze,Defender,30,French,2,1,8,85000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,149,Nicolas Pallois,Defender,37,French,1,0,8,70000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,150,Andrei Girotto,Defender,32,Brazilian,3,2,8,80000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,151,Charles Traoré,Defender,28,Malian,0,1,8,75000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,152,Ludovic Blas,Midfielder,26,French,7,5,8,95000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,153,Moses Simon,Forward,29,Nigerian,10,7,8,100000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,154,Randal Kolo Muani,Forward,26,French,8,4,8,120000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,155,Marcus Coco,Forward,29,French,5,4,8,85000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,156,Khalifa Coulibaly,Forward,32,Malagasy,7,2,8,80000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,157,Giovanni Castaldi,Midfielder,24,Italian,3,1,8,70000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,158,Léo Dubois,Defender,31,French,2,3,8,90000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,159,Jonas Omlin,Goalkeeper,30,Swiss,0,0,8,95000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,160,Jean-Charles Castelletto,Defender,28,Cameroonian,1,0,8,80000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,161,Fabien Merel,Midfielder,24,French,1,1,8,60000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,162,Nicolas Miquel,Midfielder,23,French,2,0,8,60000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,163,Pedro Chirivella,Midfielder,27,Spanish,4,3,8,80000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,164,Samuel Moutoussamy,Midfielder,27,French,3,2,8,70000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,165,Imran Louza,Midfielder,25,Moroccan,5,2,8,85000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,166,Ludovic Ajorque,Forward,29,French,9,5,8,95000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,167,Abdoulaye Touré,Midfielder,29,French,3,2,8,80000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,168,Mickaël Cuisance,Midfielder,25,French,4,4,8,70000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,169,Enock Kwateng,Defender,27,Ivorian,1,1,8,75000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,170,Fábio,Defender,31,Portuguese,0,0,8,80000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,171,Valentin Rongier,Midfielder,30,French,5,6,8,85000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,172,Moussa Sissoko,Midfielder,35,French,3,4,8,80000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,173,Dylan Bronn,Defender,29,Tunisian,2,2,8,75000.00
+9,Nantes,Stade de la Beaujoire,Nantes,1943,Antoine Kombouaré,9,2,2,30,24/25,174,Mikael Alphonse,Defender,31,French,0,0,8,60000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,226,Matz Sels,Goalkeeper,31,Belgian,0,0,8,90000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,227,Alexander Djiku,Defender,28,Ghanaian,2,1,8,80000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,228,Lamine Kone,Defender,35,Ivorian,1,0,8,70000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,229,Maxime Le Marchand,Defender,32,French,0,1,8,75000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,230,Jean-Ricner Bellegarde,Midfielder,26,French,4,2,8,80000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,231,Sanjin Prcic,Midfielder,29,Bosnian,3,3,8,75000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,232,Ludovic Ajorque,Forward,28,French,11,6,8,95000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,233,Habib Diallo,Forward,28,Senegalese,10,5,8,90000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,234,Ibrahima Sory Conté,Defender,26,Guinean,1,1,8,65000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,235,Youssouf Fofana,Midfielder,24,French,5,4,8,80000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,236,Dimitri Lienard,Midfielder,34,French,3,2,8,60000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,237,Khalid Abdul-Majeed,Defender,27,Ghanaian,0,0,8,65000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,238,Ronaël Pierre-Gabriel,Defender,26,French,2,1,8,75000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,239,Sabrina Toure,Forward,23,Ivorian,6,3,8,70000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,240,Julien Stéphan,Manager,42,French,0,0,8,0.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,241,Thierno Baldé,Midfielder,27,Guinean,2,2,8,60000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,242,Mohammed Simakan,Defender,24,French,1,0,8,75000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,243,Thomas Blais,Forward,29,French,4,3,8,70000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,244,Bingourou Kamara,Goalkeeper,28,French,0,0,8,65000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,245,Jules Koundé,Defender,25,French,1,1,8,80000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,246,Maxime Gonalons,Midfielder,35,French,2,1,8,70000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,247,Anthony Caci,Defender,28,French,0,0,8,65000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,248,Kenny Lala,Defender,32,French,3,1,8,75000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,249,Oussama Targhalline,Midfielder,21,French,2,2,8,60000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,250,Jean-Eudes Aholou,Midfielder,30,Ivorian,4,3,8,70000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,251,Lucas Perrin,Defender,26,French,1,1,8,65000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,252,Ibrahima Konate,Defender,29,French,0,0,8,70000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,253,Mouhamed Simakan,Defender,25,French,1,1,8,65000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,254,Dylan Bronn,Defender,27,Tunisian,2,0,8,70000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,255,Lilian Brassart,Midfielder,22,French,1,1,8,60000.00
+10,Strasbourg,Stade de la Meinau,Strasbourg,1906,Liam Rosenior,10,2,2,34,24/25,256,Romain Métanire,Defender,30,Malagasy,0,0,8,60000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,257,Marco Bizot,Goalkeeper,32,Dutch,0,0,8,85000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,258,Julien Faussurier,Defender,34,French,1,0,8,70000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,259,Christophe Herelle,Defender,31,French,2,1,8,75000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,260,Brendan Chardonnet,Defender,26,French,0,1,8,65000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,261,Romain Perraud,Defender,27,French,3,2,8,70000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,262,Romain Mendy,Defender,28,French,0,0,8,60000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,263,Baptiste Santamaria,Midfielder,28,French,4,3,8,80000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,264,Mathieu Cafaro,Midfielder,27,French,3,2,8,70000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,265,Ibrahima Diallo,Midfielder,24,Senegalese,2,1,8,75000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,266,Romain Faivre,Midfielder,26,French,5,4,8,85000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,267,Paul Lasne,Midfielder,30,French,1,1,8,65000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,268,Franck Honorat,Forward,27,French,8,3,8,80000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,269,Steve Mounié,Forward,29,Beninese,6,4,8,90000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,270,Romain Del Castillo,Forward,28,French,4,3,8,70000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,271,Jeremy Le Douaron,Forward,25,French,3,2,8,65000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,272,Kenny Lala,Defender,32,French,1,1,8,70000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,273,Gautier Larsonneur,Goalkeeper,25,French,0,0,8,60000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,274,Hugo Magnetti,Midfielder,23,French,2,2,8,60000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,275,Mahdi Camara,Midfielder,27,French,4,3,8,70000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,276,Irvin Cardona,Forward,28,French,5,1,8,80000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,277,François Kamano,Forward,27,Guinean,3,2,8,70000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,278,Samuel Grandsir,Forward,27,French,6,4,8,80000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,279,Ronan Pierre,Defender,22,French,1,0,8,60000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,280,Dylan Bronn,Defender,27,Tunisian,2,1,8,70000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,281,Nicolas De Preville,Forward,31,French,3,2,8,75000.00
+11,Brest,Stade Francis-Le Blé,Brest,1950,Éric Roy,11,3,4,28,24/25,282,Lilian Brassart,Midfielder,22,French,1,1,8,60000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,283,Baptiste Reynet,Goalkeeper,32,French,0,0,8,80000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,284,Jules Koundé,Defender,25,French,1,0,8,70000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,285,Jérémie Pignard,Defender,29,French,0,1,8,65000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,286,Léo Petrot,Defender,26,French,1,1,8,70000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,287,Julien Jourdren,Defender,34,French,0,0,8,60000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,288,Gautier Lloris,Defender,23,French,1,0,8,65000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,289,Boubacar Kamara,Midfielder,24,French,5,3,8,80000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,290,Nicolas Cozza,Midfielder,27,French,2,1,8,70000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,291,Mathieu Cafaro,Midfielder,26,French,3,2,8,70000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,292,Moussa Konaté,Forward,29,Senegalese,7,4,8,90000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,293,Rayan Raveloson,Midfielder,28,French,2,1,8,70000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,294,David Linarès,Defender,32,French,1,0,8,65000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,295,Youssouf MChangama,Midfielder,26,Comorian,4,2,8,80000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,296,Khalil Karami,Midfielder,27,Algerian,2,3,8,70000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,297,Moussa Doumbia,Forward,28,Malian,6,2,8,90000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,298,Paul Bernardoni,Goalkeeper,28,French,0,0,8,75000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,299,Alexis Trouillet,Defender,22,French,1,0,8,60000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,300,Ousmane Camara,Midfielder,26,Guinean,3,1,8,65000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,301,Pablo Rosario,Midfielder,27,Dutch,4,2,8,75000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,302,Hamza Sakhi,Midfielder,29,Moroccan,5,3,8,80000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,303,Jean-Philippe Mateta,Forward,28,French,8,4,8,90000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,304,Romain Del Castillo,Forward,26,French,2,3,8,70000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,305,Nicolas Pépé,Forward,28,Ivorian,9,5,8,95000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,306,Tanguy Nianzou,Defender,22,French,1,0,8,65000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,307,Mathys Tel,Forward,20,French,4,2,8,70000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,308,Rayan Cherki,Forward,21,French,7,3,8,85000.00
+12,Auxerre,Stade Abbé-Deschamps,Auxerre,1905,Christophe Pélissier,12,3,5,29,24/25,309,Khalid Abdul-Majeed,Defender,27,Ghanaian,2,1,8,65000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,310,Steve Mandanda,Goalkeeper,39,French,0,0,8,90000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,311,Hamari Traoré,Defender,32,Malian,2,1,8,80000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,312,Nayef Aguerd,Defender,27,Moroccan,1,0,8,75000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,313,Benoît Badiashile,Defender,24,French,0,1,8,70000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,314,Faitout Maouassa,Defender,26,French,1,2,8,70000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,315,Arthur Theate,Defender,24,Belgian,3,1,8,75000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,316,Adrien Truffert,Defender,23,French,1,1,8,65000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,317,Benjamin Bourigeaud,Midfielder,29,French,5,6,8,85000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,318,Flavien Tait,Midfielder,28,French,4,3,8,80000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,319,Eduardo Camavinga,Midfielder,22,French,6,4,8,95000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,320,Lovro Majer,Midfielder,25,Croatian,3,5,8,75000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,321,Martin Terrier,Forward,27,French,10,7,8,90000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,322,Gaëtan Laborde,Forward,29,French,8,3,8,85000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,323,Serhou Guirassy,Forward,27,Guinean,7,5,8,80000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,324,Stéphanine Jallet,Defender,31,French,1,0,8,70000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,325,Cédric Hountondji,Defender,30,Beninese,2,1,8,70000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,326,Benjamin Lala,Midfielder,24,French,4,2,8,65000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,327,Romain Salin,Goalkeeper,36,French,0,0,8,70000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,328,Wahbi Khazri,Forward,32,Tunisian,6,4,8,80000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,329,Jérémy Doku,Forward,22,Belgian,5,2,8,95000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,330,Sacha Boey,Defender,24,French,0,1,8,65000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,331,Jules Keita,Midfielder,26,Ivorian,3,1,8,70000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,332,Lenny Pintor,Forward,23,French,4,3,8,65000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,333,Romain Faivre,Midfielder,26,French,5,3,8,80000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,334,Gautier Larsonneur,Goalkeeper,25,French,0,0,8,65000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,335,Kenny Lala,Defender,32,French,1,0,8,70000.00
+13,Rennes,Roazhon Park,Rennes,1901,Julien Stéphan,13,2,4,29,24/25,336,Anwar El Ghazi,Forward,28,Dutch,6,3,8,85000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,337,Jessy Moulin,Goalkeeper,34,French,0,0,8,70000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,338,Gabriel Silva,Defender,28,Brazilian,1,0,8,75000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,339,Timothée Kolodziejczak,Defender,32,French,2,1,8,80000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,340,Yvann Macon,Defender,26,French,0,1,8,65000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,341,Wylan Cyprien,Midfielder,28,French,3,2,8,80000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,342,Mahdi Camara,Midfielder,24,French,5,3,8,75000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,343,Adil Aouchiche,Midfielder,21,French,4,2,8,70000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,344,Romain Hamouma,Forward,35,French,7,3,8,90000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,345,Denis Bouanga,Forward,29,Gabonese,10,6,8,85000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,346,Charles Abi,Forward,23,French,5,1,8,70000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,347,Lucas Gourna-Douath,Midfielder,20,French,2,2,8,60000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,348,Oussama Tanane,Forward,27,Moroccan,4,4,8,80000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,349,Saidou Sow,Defender,25,Senegalese,1,0,8,70000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,350,Victor Salas,Midfielder,22,Spanish,3,1,8,65000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,351,Zaydou Youssouf,Midfielder,25,French,3,3,8,70000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,352,Khalil Karami,Defender,29,Algerian,1,1,8,65000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,353,Sergi Palencia,Defender,28,Spanish,0,1,8,70000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,354,Jean-Philippe Krasso,Forward,27,Ivorian,8,5,8,85000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,355,Owen Goss,Midfielder,19,French,0,0,8,60000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,356,Clément Grenier,Midfielder,34,French,2,4,8,70000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,357,Kévin Monnet-Paquet,Forward,32,French,5,2,8,75000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,358,Julien Sablé,Midfielder,38,French,0,0,8,60000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,359,Yann M’Vila,Midfielder,33,French,1,3,8,80000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,360,Mathieu Debuchy,Defender,39,French,0,0,8,65000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,361,Mouhamadou Dabo,Defender,30,French,0,1,8,70000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,362,Wilfried Kanga,Forward,26,Ivorian,4,2,8,75000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,363,Anwar El Ghazi,Forward,29,Dutch,6,3,8,85000.00
+14,Saint-Étienne,Stade Geoffroy-Guichard,Saint-Étienne,1933,Olivier DallOglio,14,2,5,30,24/25,364,Hugo Duro,Forward,24,Spanish,7,4,8,80000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,365,Maxime Dupé,Goalkeeper,29,French,0,0,8,70000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,366,Moussa Diarra,Defender,25,Malagasy,1,1,8,75000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,367,Jean-Clair Todibo,Defender,24,French,2,0,8,80000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,368,Nicolas Isimat-Mirin,Defender,32,French,1,0,8,70000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,369,Alban Lafont,Goalkeeper,25,French,0,0,8,90000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,370,Ruben Gabrielsen,Defender,27,Norwegian,0,1,8,75000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,371,Branco van den Boomen,Midfielder,27,Dutch,5,3,8,80000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,372,Brahim Adli,Midfielder,24,French,3,2,8,70000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,373,Stijn Spierings,Midfielder,27,Dutch,4,2,8,75000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,374,Toulouse Diallo,Midfielder,26,Ivorian,2,1,8,65000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,375,Fares Chaïbi,Midfielder,22,Algerian,6,4,8,80000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,376,Dylan Bronn,Defender,28,Tunisian,1,0,8,75000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,377,Riyad Mahrez,Forward,34,Algerian,10,7,8,95000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,378,Gabriel Kachloul,Defender,29,French,0,1,8,70000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,379,Amine Adli,Forward,23,French,5,3,8,85000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,380,Branco van den Boomen,Midfielder,27,Dutch,4,3,8,80000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,381,Matthis Jørgensen,Midfielder,21,Danish,2,2,8,65000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,382,Michaël Cuisance,Midfielder,24,French,3,2,8,75000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,383,Antoine Griezmann,Forward,34,French,8,6,8,120000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,384,Vincent Sierro,Midfielder,29,Swiss,2,3,8,70000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,385,Romain Saïss,Defender,33,Moroccan,1,0,8,80000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,386,Clément Michelin,Defender,26,French,1,1,8,65000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,387,Steven Fortes,Defender,30,Cape Verdean,1,0,8,70000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,388,Thijs Dallinga,Forward,25,Dutch,6,4,8,85000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,389,Koulou Kouassi,Defender,28,Ivorian,0,0,8,70000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,390,Faid El Ouazghari,Forward,23,Moroccan,5,2,8,80000.00
+15,Toulouse,Stadium de Toulouse,Toulouse,1937,Carles Martinez,15,1,4,29,24/25,391,Cédric Yambéré,Defender,31,Cameroonian,1,0,8,65000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,392,Mathieu Gorgelin,Goalkeeper,32,French,0,0,8,60000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,393,Tanguy Le Sand,Defender,26,French,1,0,8,70000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,394,Moussa Ba,Defender,28,Senegalese,2,1,8,75000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,395,Timothée Pembélé,Defender,23,French,1,0,8,65000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,396,Victor Lekhal,Midfielder,30,French,3,4,8,80000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,397,Brahim Konaté,Midfielder,24,Malagasy,2,2,8,70000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,398,Alexis Blin,Midfielder,27,French,1,3,8,75000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,399,Pau López,Goalkeeper,30,Spanish,0,0,8,90000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,400,Gautier Larsonneur,Goalkeeper,27,French,0,0,8,65000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,401,Brahim Abdelkader,Midfielder,22,French,4,3,8,70000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,402,Mahmoud Hassan,Midfielder,24,Egyptian,3,1,8,75000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,403,Aldo Kalulu,Forward,27,French,5,4,8,80000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,404,Dylan Saint-Louis,Forward,28,French,8,5,8,85000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,405,Benoît Costil,Goalkeeper,37,French,0,0,8,60000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,406,Félicité Aigbivon,Defender,25,Ivorian,1,1,8,70000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,407,Jonathan Valente,Midfielder,29,Portuguese,4,3,8,80000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,408,Boris Vukčević,Midfielder,27,German,2,2,8,70000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,409,Gaspard Angoua,Defender,30,Ivorian,0,1,8,65000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,410,Noam Emeran,Forward,22,French,6,3,8,75000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,411,Moussa Doumbia,Midfielder,30,Malian,5,2,8,70000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,412,Guillaume Hoarau,Forward,36,French,10,5,8,90000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,413,Warren Bondo,Midfielder,21,French,2,1,8,65000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,414,Kevin Hergault,Defender,29,French,1,0,8,70000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,415,Théo Chendri,Forward,23,French,4,2,8,75000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,416,Hugo Ferland,Midfielder,22,French,3,3,8,60000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,417,Gaétan Laborde,Forward,30,French,7,5,8,85000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,418,Khalid Hachadi,Defender,27,Moroccan,1,1,8,65000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,419,Jérémy Le Douaron,Forward,25,French,6,2,8,70000.00
+16,Le Havre,Stade Océane,Le Havre,1872,Didier Digard,16,2,6,32,24/25,420,Mouhamed Bechir,Midfielder,20,French,1,0,8,60000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,421,Paul Bernardoni,Goalkeeper,27,French,0,0,8,70000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,422,Vincent Manceau,Defender,32,French,2,1,8,80000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,423,Ismaël Traoré,Defender,35,Malian,1,0,8,65000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,424,Romain Thomas,Defender,31,French,0,0,8,70000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,425,Loïs Diony,Forward,27,French,6,4,8,75000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,426,Angelo Fulgini,Midfielder,28,French,3,5,8,85000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,427,Sada Thioub,Midfielder,27,Senegalese,4,2,8,70000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,428,Nabil Bentaleb,Midfielder,29,Algerian,2,3,8,90000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,429,Batista Mendy,Midfielder,26,French,1,1,8,65000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,430,Adil Aouchiche,Midfielder,23,French,4,1,8,70000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,431,Stefan Bajic,Goalkeeper,22,French,0,0,8,60000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,432,Ibrahima Koné,Forward,26,Malian,8,3,8,80000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,433,Jimmy Cabot,Forward,30,French,5,2,8,75000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,434,Azzedine Ounahi,Midfielder,23,Moroccan,6,4,8,80000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,435,Jonathan Bamba,Forward,29,French,7,5,8,85000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,436,Aurelien Tchouameni,Midfielder,25,French,2,2,8,90000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,437,Michaël Cuisance,Midfielder,24,French,3,1,8,65000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,438,Thomas Mangani,Midfielder,35,French,1,0,8,60000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,439,Nicolas Douchez,Goalkeeper,41,French,0,0,8,50000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,440,Terry Antonis,Midfielder,29,Australian,1,2,8,70000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,441,Fayçal Fajr,Midfielder,34,Moroccan,4,3,8,80000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,442,Moulaye Zaydou,Defender,26,Senegalese,1,0,8,65000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,443,Souleyman Doumbia,Defender,24,Ivorian,1,0,8,70000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,444,Marwan Saïd,Forward,22,French,5,2,8,65000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,445,Rachid Ghezzal,Midfielder,31,Algerian,2,1,8,75000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,446,Adil Rami,Defender,38,French,0,0,8,60000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,447,Teddy Teuma,Midfielder,29,French,3,3,8,80000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,448,Ali Karamoko,Forward,25,French,4,2,8,70000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,449,Michaël Alphonse,Defender,30,French,0,0,8,65000.00
+17,Angers,Stade Raymond Kopa,Angers,1919,Alexandre Dujeux,17,0,4,33,24/25,450,Julien Stéphane,Midfielder,26,French,3,4,8,70000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,451,Benjamin Lecomte,Goalkeeper,33,French,0,0,8,75000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,452,Vitorino Hilton,Defender,46,Brazilian,1,0,8,60000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,453,Mihailo Ristic,Defender,28,Serbian,0,1,8,70000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,454,Maxime Estève,Defender,23,French,2,1,8,65000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,455,Nicolas Cozza,Defender,25,French,1,0,8,70000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,456,Beni Badash,Midfielder,24,Ivorian,3,2,8,65000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,457,Teji Savanier,Midfielder,28,French,6,5,8,85000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,458,Mamadou Sakho,Defender,35,French,2,0,8,80000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,459,Florent Mollet,Midfielder,29,French,4,3,8,70000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,460,Jordan Ferri,Midfielder,28,French,1,1,8,70000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,461,Léo Leroy,Midfielder,22,French,3,2,8,60000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,462,Andy Delort,Forward,33,Algerian,10,4,8,90000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,463,Sava Dajic,Forward,26,Serbian,5,3,8,75000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,464,Ellyes Skhiri,Midfielder,28,Tunisian,2,2,8,80000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,465,Saïf-Eddine Khaoui,Midfielder,26,Tunisian,4,1,8,70000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,466,Akimu Kambou,Forward,24,Ivorian,6,2,8,65000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,467,Khalil Fayad,Midfielder,23,French,3,4,8,60000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,468,Stefan Mitrović,Defender,30,Serbian,1,0,8,70000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,469,Thibaut Vargas,Midfielder,22,French,2,2,8,65000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,470,Benoît Costil,Goalkeeper,37,French,0,0,8,60000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,471,Sofiane Rhilli,Forward,25,French,5,3,8,65000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,472,Dylan Bronn,Defender,28,Tunisian,1,1,8,70000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,473,Mathieu Cordier,Defender,27,French,0,0,8,65000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,474,Yusuf Bektas,Midfielder,24,Turkish,3,1,8,60000.00
+18,Montpellier,Stade de la Mosson,Montpellier,1919,Jean-Louis Gasset,18,1,6,27,24/25,475,Arnaud Souquet,Defender,31,French,2,1,8,70000.00
