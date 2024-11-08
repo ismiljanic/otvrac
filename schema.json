@@ -1,5 +1,5 @@
 {
-    "$id": "http://localhost:3000/schemas/ligue1-dataset-schema.json",
+    "$id": "https://ismiljanic.github.io/otvrac/schema.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Francuska prva nogometna liga",
     "description": "Otvoreni skup podataka o klubovima i igračima u prvoj francuskoj nogometnoj ligi (Ligue 1) za sezonu 2024./2025.",
