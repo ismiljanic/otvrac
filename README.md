@@ -1,4 +1,4 @@
-# Prva laboratorijska vježba
+# Laboratorijske vježbe
 
 ![License](https://img.shields.io/badge/license-CC0%201.0%20Universal-brightgreen.svg)
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
@@ -77,7 +77,7 @@ Više informacija na [Creative Commons](https://creativecommons.org/publicdomain
 
 ## Verzija skupa podataka
 
-**1.0**
+**2.0**
 
 ## Jezik skupa podataka
 
