@@ -6,6 +6,7 @@ const path = require('path');
 const fs = require('fs');
 const { Pool } = require('pg');
 const cors = require('cors');
+require('dotenv').config();
 
 //definiranje aplikacije i porta
 const app = express();
@@ -13,11 +14,11 @@ const PORT = 8080;
 
 //Povezivanje s bazom podataka
 const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'OtvRac',
-    password: 'v6fATA9u',
-    port: 5432,
+    user: process.env.DB_USER,
+    host: process.env.DB_HOST,
+    database: process.env.DB_NAME,
+    password: process.env.DB_PASSWORD,
+    port: process.env.DB_PORT,
 });
 
 app.use(cors());
