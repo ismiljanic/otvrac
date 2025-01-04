@@ -1,0 +1,193 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.club-details-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    transition: box-shadow 0.3s ease;
+}
+
+.club-details-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.club-details-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-weight: 700;
+}
+
+.club-details-container p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.club-details-container p strong {
+    color: #333;
+    font-weight: 600;
+}
+
+.players-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 30px 0;
+    justify-items: center;
+}
+
+.position-group h3 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #333;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.players-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.players-group.visible {
+    max-height: 5000px;
+    opacity: 1;
+}
+
+.player-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 1em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+}
+
+.player-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.player-info {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.player-info h4 {
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.player-info .player-position {
+    font-size: 1.1em;
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.player-stats {
+    padding: 20px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    border-top: 1px solid #f0f0f0;
+    border-radius: 0 0 12px 12px;
+}
+
+.player-stats p {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.player-stats strong {
+    color: #007bff;
+    font-weight: 600;
+}
+
+.linkForClubDetails {
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkToLeagueStandings {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.linkToLeagueStandings:hover {
+    color: #0037c1;
+    transform: scale(1.1);
+}
+
+.delete-club-button-div {
+    margin-top: 5em;
+    border-top: 1px solid rgb(178, 178, 178);
+}
+
+.delete-club-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.delete-club-button:hover {
+    background-color: #c9302c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 768px) {
+    .club-details-container {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .club-details-container h1 {
+        font-size: 2rem;
+    }
+
+    .club-details-container p {
+        font-size: 1rem;
+    }
+}

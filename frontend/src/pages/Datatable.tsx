@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/Datatable.css';
+import { Link } from 'react-router-dom';
 
 /**
  * Sučelje igrača
@@ -52,40 +53,18 @@ const DataTable: React.FC = () => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
+
                 const data = await response.json();
-                const groupedClubs: Club[] = [];
-                //grupiranje po klubu
-                data.forEach((row: any) => {
-                    //provjera postoji li klub
-                    const club = groupedClubs.find(c => c.clubid === row.clubid);
-                    if (club) {
-                        //dodavanje igrača u polje igrača kluba
-                        club.players.push({
-                            playerid: row.playerid,
-                            playername: row.playername,
-                            position: row.position,
-                            age: row.age,
-                            nationality: row.nationality,
-                            goalsscored: row.goalsscored,
-                            assists: row.assists,
-                            matchesplayed: row.matchesplayed,
-                            salary: row.salary
-                        });
-                    } else {
-                        //dodavanje kluba i igrača
-                        groupedClubs.push({
-                            clubid: row.clubid,
-                            clubname: row.clubname,
-                            stadium: row.stadium,
-                            location: row.location,
-                            establishedyear: row.establishedyear,
-                            manager: row.manager,
-                            leagueposition: row.leagueposition,
-                            wins: row.wins,
-                            losses: row.losses,
-                            totalplayers: row.totalplayers,
-                            seasonid: row.seasonid,
-                            players: [{
+
+                if (data.status === 'OK') {
+                    const groupedClubs: Club[] = [];
+                    //grupiranje po klubu
+                    data.response.forEach((row: any) => {
+                        //provjera postoji li klub
+                        const club = groupedClubs.find(c => c.clubid === row.clubid);
+                        if (club) {
+                            //dodavanje igrača u polje igrača kluba
+                            club.players.push({
                                 playerid: row.playerid,
                                 playername: row.playername,
                                 position: row.position,
@@ -95,19 +74,48 @@ const DataTable: React.FC = () => {
                                 assists: row.assists,
                                 matchesplayed: row.matchesplayed,
                                 salary: row.salary
-                            }]
-                        });
-                    }
-                });
-                //ažuriranje vrijednosti s klubovima
-                setClubs(groupedClubs);
+                            });
+                        } else {
+                            //dodavanje kluba i igrača
+                            groupedClubs.push({
+                                clubid: row.clubid,
+                                clubname: row.clubname,
+                                stadium: row.stadium,
+                                location: row.location,
+                                establishedyear: row.establishedyear,
+                                manager: row.manager,
+                                leagueposition: row.leagueposition,
+                                wins: row.wins,
+                                losses: row.losses,
+                                totalplayers: row.totalplayers,
+                                seasonid: row.seasonid,
+                                players: [{
+                                    playerid: row.playerid,
+                                    playername: row.playername,
+                                    position: row.position,
+                                    age: row.age,
+                                    nationality: row.nationality,
+                                    goalsscored: row.goalsscored,
+                                    assists: row.assists,
+                                    matchesplayed: row.matchesplayed,
+                                    salary: row.salary
+                                }]
+                            });
+                        }
+                    });
+                    //ažuriranje vrijednosti s klubovima
+                    setClubs(groupedClubs);
+                } else {
+                    console.error('Failed to fetch clubs:', data.message);
+                }
             } catch (err) {
-                console.error("Error fetching clubs data:", err);
+                console.error('Error fetching clubs data:', err);
             }
         };
 
         fetchClubs();
     }, []);
+
 
     //filtriranje klubova
     const filteredClubs = clubs.flatMap(club => {
@@ -116,6 +124,7 @@ const DataTable: React.FC = () => {
         if (filter === '') {
             return club.players.map(player => ({
                 ...player,
+                clubid: club.clubid,
                 clubname: club.clubname,
                 stadium: club.stadium,
                 location: club.location,
@@ -178,6 +187,7 @@ const DataTable: React.FC = () => {
         //filtrirani igrači i klubovi
         return filteredPlayers.map(player => ({
             ...player,
+            clubid: club.clubid,
             clubname: club.clubname,
             stadium: club.stadium,
             location: club.location,
@@ -220,17 +230,25 @@ const DataTable: React.FC = () => {
                 },
                 body: JSON.stringify(filteredData)
             });
-            const blob = await response.blob();
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = fileName;
-            a.click();
-            window.URL.revokeObjectURL(url);
+
+            const data = await response.json();
+
+            if (data.status === 'OK') {
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = fileName;
+                a.click();
+                window.URL.revokeObjectURL(url);
+            } else {
+                console.error("Error downloading CSV:", data.message);
+            }
         } catch (error) {
             console.error("Error downloading CSV:", error);
         }
     };
+
 
     //funkcija za preuzimanje podataka u .json formatu
     const downloadJSON = async (filteredData: any) => {
@@ -244,17 +262,25 @@ const DataTable: React.FC = () => {
                 },
                 body: JSON.stringify(filteredData)
             });
-            const blob = await response.blob();
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = fileName;
-            a.click();
-            window.URL.revokeObjectURL(url);
+
+            const data = await response.json();
+
+            if (data.status === 'OK') {
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = fileName;
+                a.click();
+                window.URL.revokeObjectURL(url);
+            } else {
+                console.error("Error downloading JSON:", data.message);
+            }
         } catch (error) {
             console.error("Error downloading JSON:", error);
         }
     };
+
 
     return (
         <div className="main-page-container">
@@ -315,7 +341,11 @@ const DataTable: React.FC = () => {
                 <tbody>
                     {filteredClubs.slice(0, visibleRows).map(player => (
                         <tr key={player.playerid}>
-                            <td>{player.clubname}</td>
+                            <td>
+                                <Link to={`/clubs/${player.clubid}`} className="linkClubsPlayers">
+                                    {player.clubname}
+                                </Link>
+                            </td>
                             <td>{player.stadium}</td>
                             <td>{player.location}</td>
                             <td>{player.establishedyear}</td>
@@ -324,7 +354,11 @@ const DataTable: React.FC = () => {
                             <td>{player.wins}</td>
                             <td>{player.losses}</td>
                             <td>{player.totalplayers}</td>
-                            <td>{player.playername}</td>
+                            <td>
+                                <Link to={`/players/${player.playerid}`} className="linkClubsPlayers">
+                                    {player.playername}
+                                </Link>
+                            </td>
                             <td>{player.position}</td>
                             <td>{player.age}</td>
                             <td>{player.nationality}</td>

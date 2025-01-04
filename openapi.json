@@ -1,0 +1,576 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "Treća laboratorijska vježba",
+        "description": "Laboratorijska vježba koja prikazuje prvu francusku ligu uključujući klubove, igrače te trenutni poredak na ljestvici za sezonzu 24./25.",
+        "contact": {
+            "name": "Ivan Smiljanić",
+            "email": "ivan.smiljanic@fer.hr"
+        },
+        "license": {
+            "name": "CC0 1.0 Universal",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        "version": "3.0"
+    },
+    "paths": {
+        "/api/clubs": {
+            "get": {
+                "summary": "Dohvaća podatke iz baze podataka koristeći SQL upit koji spaja tablice club i player",
+                "description": "Vraća kolekciju klubovima i odgovarajućih igrača.",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "tags",
+                        "in": "query",
+                        "description": "Filtriranje rezultata po tagovima npr. `tags=playername`",
+                        "required": false,
+                        "style": "form",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Uspješno dohvaćen resurs",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Resource"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "message": {
+                            "type": "string",
+                            "example": "Error querying database"
+                        }
+                    }
+                }
+            },
+            "post": {
+                "summary": "Kreira se novi klub",
+                "description": "Dodavanje novog kluba u bazu podataka, kreirani klub ima automatski najveći identifikator.",
+                "produces": [
+                    "application/json"
+                ],
+                "requestBody": {
+                    "description": "Objekt koji predstavlja klub i koji se treba dodati",
+                    "required": true,
+                    "content": "application/json"
+                },
+                "parameters": [
+                    {
+                        "name": "tags",
+                        "in": "query",
+                        "description": "Filtriranje rezultata po tagovima npr. `tags=playername`",
+                        "required": false,
+                        "style": "form",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Klub je uspješno kreiran.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Club successfully added."
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Error validiranja podataka",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "All fields are required."
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Error adding club to the database"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/clubs/:id": {
+            "get": {
+                "summary": "Dohvaća klub iz baze podataka",
+                "description": "Vraća klub iz baze podataka određen jedinstvenim identifikatorom.",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Identifikator resursa",
+                        "required": true,
+                        "style": "form",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Uspješno dohvaćen klub",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Resource"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Klub nije pronađen",
+                        "message": {
+                            "type": "string",
+                            "example": "Club not found"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "message": {
+                            "type": "string",
+                            "example": "Error querying database"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/players/:id": {
+            "get": {
+                "summary": "Dohvaća igrača iz baze podataka",
+                "description": "Vraća igrača iz baze podataka određenog jedinstvenim identifikatorom.",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Identifikator resursa",
+                        "required": true,
+                        "style": "form",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Uspješno dohvaćen igrač",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Resource"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Igrač nije pronađen",
+                        "message": {
+                            "type": "string",
+                            "example": "Player not found"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "message": {
+                            "type": "string",
+                            "example": "Error querying database"
+                        }
+                    }
+                }
+            },
+            "put": {
+                "summary": "Ažurira vrijednosti za pojedinog igrača",
+                "description": "Vraća se osvježene vrijednosti za pojedinog igrača u bazu podataka određenog jedinstvenim identifikatorom",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Identifikator igrača za ažuriranje",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "example": 1
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "description": "Vrijednosti igrača za ažuriranje",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "required": [
+                                    "playername",
+                                    "position",
+                                    "age",
+                                    "nationality",
+                                    "goalsscored",
+                                    "assists",
+                                    "matchesplayed",
+                                    "salary",
+                                    "clubid"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Vrijednosti igrača uspješno su ažurirane",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Sva je polja potrebno ispuniti",
+                        "message": {
+                            "type": "string",
+                            "example": "All fields are required."
+                        }
+                    },
+                    "404": {
+                        "description": "Traženi igrač nije pronađen",
+                        "message": {
+                            "type": "string",
+                            "example": "Player not found"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "message": {
+                            "type": "string",
+                            "example": "Error updating player data in the database"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/clubs/:id/players": {
+            "get": {
+                "summary": "Dohvaća sve igrače za pojedini klub iz baze podataka",
+                "description": "Vraća igrače iz baze podataka za klub određen jedinstvenim identifikatorom.",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Identifikator resursa",
+                        "required": true,
+                        "style": "form",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Uspješno dohvaćeni igrači za klub",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Resource"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Igrači nisu pronađeni za klub",
+                        "message": {
+                            "type": "string",
+                            "example": "No players found for this club"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "message": {
+                            "type": "string",
+                            "example": "Error querying database"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/league-standings": {
+            "get": {
+                "summary": "Dohvaća trenutne pozicije klubova iz baze podataka",
+                "description": "Vraća poredak klubova na temelju pozicije na tablici u ligi iz baze podataka.",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "tags",
+                        "in": "query",
+                        "description": "Identifikator resursa",
+                        "required": true,
+                        "style": "form",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Dohvaćena pozicija svakog kluba",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Resource"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "message": {
+                            "type": "string",
+                            "example": "Error querying league standings"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/download_csv": {
+            "post": {
+                "summary": "Preuzimanje podataka u CSV obliku",
+                "description": "Pretvara podatke u CSV format koristeći zadano zaglavlje. Vraća .csv kao datoteku za preuzimanje",
+                "produces": [
+                    "application/json"
+                ],
+                "requestBody": {
+                    "description": "Polje objekata koji se trebaju pretvoriti u csv. Svaki objekt mora imati polja koja su jednaka kao u zaglavlju.",
+                    "required": true,
+                    "content": "application/json"
+                },
+                "parameters": [
+                    {
+                        "name": "x-file-name",
+                        "in": "header",
+                        "description": "Naziv datoteke koja se generira, generička vrijednost je postavljena na `filtered_data.csv`",
+                        "required": false,
+                        "style": "form",
+                        "schema": {
+                            "type": "string",
+                            "example": "my_data.csv"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "CSV datoteka uspješno je generirana.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Error generating CSV"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/download_json": {
+            "post": {
+                "summary": "Preuzimanje podataka u JSON obliku",
+                "description": "Pretvara podatke u JSON format koristeći zadano zaglavlje. Vraća .json kao datoteku za preuzimanje",
+                "produces": [
+                    "application/json"
+                ],
+                "requestBody": {
+                    "description": "Polje objekata koji se trebaju pretvoriti u json. Svaki objekt mora imati polja koja su jednaka kao u zaglavlju.",
+                    "required": true,
+                    "content": "application/json"
+                },
+                "parameters": [
+                    {
+                        "name": "x-file-name",
+                        "in": "header",
+                        "description": "Naziv datoteke koja se generira, generička vrijednost je postavljena na `filtered_data.json`",
+                        "required": false,
+                        "style": "form",
+                        "schema": {
+                            "type": "string",
+                            "example": "my_data.json"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "JSON datoteka uspješno je generirana.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Error generating JSON"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/clubs/:clubid": {
+            "delete": {
+                "summary": "Brisanje kluba iz baze podataka",
+                "description": "Briše se pojedini klub iz baze podataka na temelju njegovog jedinstvenog identifikatora.",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Identifikator kluba koji se briše",
+                        "required": true,
+                        "style": "form",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Klub je uspješno izbrisan iz baze podataka",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/Resource"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Identifikator kluba potreban je za brisanje",
+                        "message": {
+                            "type": "string",
+                            "example": "Club ID is required"
+                        }
+                    },
+                    "404": {
+                        "description": "Klub nije pronađen",
+                        "message": {
+                            "type": "string",
+                            "example": "Club not found"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "message": {
+                            "type": "string",
+                            "example": "Error deleting club from the database"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

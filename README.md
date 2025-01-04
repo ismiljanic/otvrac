@@ -34,6 +34,11 @@
     - [Prikaz tablice](#prikaz-tablice)
     - [Mogucnost filtriranja](#mogucnost-filtriranja)
     - [Demonstracija filtriranja](#demonstracija-filtriranja)
+    - [Prikaz igraca](#prikaz-igraca)
+    - [Uredivanje postavki igraca](#uredivanje-postavki-igraca)
+    - [Prikaz kluba](#prikaz-kluba)
+    - [Dodavanje novog kluba](#dodavanje-novog-kluba)
+    - [Trenutna tablica lige](#trenutna-tablica-lige)
 16. [Ostalo](#ostalo)
 
 ---
@@ -45,11 +50,13 @@ slobodno pristupiti, koristiti ih i dijeliti.
 ---
 ## Cilj
 
-Cilj ove vježbe je upoznavanje s procesom kreiranja otvorenog skupa podataka te njegovog dijeljenja u obliku javnog
+Cilj **prve laboratorijske vježbe** je upoznavanje s procesom kreiranja otvorenog skupa podataka te njegovog dijeljenja u obliku javnog
 git-repozitorija. Za potrebe prve laboratorijske vježbe potrebno je napraviti skup podataka i spremiti taj skup podataka
 u bazu po izboru.
 Postupak izdvajanja podataka u **CSV** i **JSON** formatu mora biti automatiziran skriptom ili shell naredbom.
-
+U **drugoj laboratorijskoj vježbi** potrebno je napraviti prikaz podataka u strojnom i ljudski čitljivom obliku. Za prikaz podataka u ljudima čitljivom formatu potrebno je podatke prikazati u obliku HTML tablice
+koja se zajedno s obrascem za filtriranje i asinkronim pozivom (AJAX) za dohvaćanje podataka. Dodatno je potrebno ostvariti filtriranje podataka po svim vrijednostima. Za potrebe druge laboratorijske vježbe skup podataka obogaćuje se metapodacima u formatu JSON Schema.
+**Treća laboratorijska vježba** treba skup otvorenih podataka iz prijašnjih laboratorijskih vježbi izložiti kroz RESTful API. API mora imati GET, POST, PUT i DELETE kranje točke. Dodatno je potrebno olakšati čitljivost mogućnosti API-ja koristeći standard OpenAPI.
 ---
 
 ## Licencija
@@ -77,7 +84,7 @@ Više informacija na [Creative Commons](https://creativecommons.org/publicdomain
 
 ## Verzija skupa podataka
 
-**2.0**
+**3.0**
 
 ## Jezik skupa podataka
 
@@ -97,7 +104,7 @@ Francuska prva nogometna liga
 
 ## Datum zadnjeg ažuriranja
 
-8. studenog 2024.
+4. siječnja 2025.
 
 ---
 
@@ -164,6 +171,17 @@ Treća tablica u skupu podataka označava sezonu te se sastoji od sljedećih stu
 - prikazane podatke treba dohvatiti iz baze podataka
 - mogućnost jednostavnog filtriranja po vrijednostima podataka
 - filtrirane podatke potrebno je moći preuzeti u .csv i .json formatu
+- korištenje GET metode za dohvat cjelokupnog skupa podataka
+- korištenje barem tri dodatne GET metode
+- korištenje POST metode
+- korištenje PUT metode
+- korištenje DELETE metode
+- odgovori moraju biti omotani u Response omotač
+- aplikacija mora biti otporna na greške i na odgovarajući način vraćati poruke o eventualnim
+  iznimkama ili pogreškama
+- aplikacija ne smije prestati s radom u slučaju pogreške ili prikazati
+  zadane poruke o pogreškama odabranih radnih okvira
+- dokumentiranje uporabom specifikacije OpenAPI
 ---
 ## O implementaciji
 
@@ -252,6 +270,26 @@ Za radno okruženje koristi se VSCode.
 ### Demonstracija filtriranja
 
 <img src="pictures/pic4.png" style="max-width: 100%; height: auto;">
+
+### Prikaz igraca
+
+<img src="pictures/pic6.png" style="max-width: 100%; height: auto;">
+
+### Uredivanje postavki igraca
+
+<img src="pictures/pic5.png" style="max-width: 100%; height: auto;">
+
+### Prikaz kluba
+
+<img src="pictures/pic7.png" style="max-width: 100%; height: auto;">
+
+### Dodavanje novog kluba
+
+<img src="pictures/pic8.png" style="max-width: 100%; height: auto;">
+
+### Trenutna tablica lige
+
+<img src="pictures/pic9.png" style="max-width: 100%; height: auto;">
 
 ---
 ## Ostalo

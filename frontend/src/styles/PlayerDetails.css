@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #007bff;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.player-details-container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    transition: box-shadow 0.3s ease;
+}
+
+.player-details-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.player-details-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-weight: 700;
+}
+
+.player-details-container p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.player-details-container p strong {
+    color: #333;
+    font-weight: 600;
+}
+
+.editPlayerButton {
+    margin-left: -0.1em;
+}
+
+@media (max-width: 768px) {
+    .player-details-container {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .player-details-container h1 {
+        font-size: 2rem;
+    }
+
+    .player-details-container p {
+        font-size: 1rem;
+    }
+}

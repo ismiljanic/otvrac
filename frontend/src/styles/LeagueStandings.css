@@ -1,0 +1,79 @@
+body {
+    margin-top: 2em;
+}
+
+.league-standings-container {
+    padding: 30px;
+    margin-top: 3em;
+    background-color: #f4f7fc;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.league-standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.league-standings-table th,
+.league-standings-table td {
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.league-standings-table th {
+    background-color: #0080ff;
+    color: white;
+    font-weight: bold;
+}
+
+.league-standings-table td {
+    background-color: #ffffff;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.league-standings-table tr:hover {
+    background-color: #ecf0f1;
+}
+
+.league-standings-table tr:nth-child(even) td {
+    background-color: #f9fafc;
+}
+
+.league-standings-table tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+.league-standings-table td:first-child {
+    font-weight: bold;
+    color: #3498db;
+}
+
+.add-new-club-button {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #0080ff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.add-new-club-button:hover {
+    color: black;
+}
+
+.add-new-club-button-div {
+    margin-top: 2em;;
+}
