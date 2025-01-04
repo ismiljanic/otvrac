@@ -9,7 +9,7 @@ import '../styles/MainPage.css';
 const MainPage: React.FC = () => {
     return (
         <div className="main-page-container">
-            <h1>OTVORENO RAČUNARSTVO 2.lab</h1>
+            <h1>OTVORENO RAČUNARSTVO</h1>
             <div className="centered-container">
                 <Link to="/data-table" className='link'>Go to Data Table</Link>
             </div>

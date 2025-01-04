@@ -50,19 +50,16 @@ slobodno pristupiti, koristiti ih i dijeliti.
 ---
 ## Cilj
 
-Cilj **prve laboratorijske vježbe** je upoznavanje s procesom kreiranja otvorenog skupa podataka te njegovog dijeljenja u obliku javnog
+Cilj prve laboratorijske vježbe je upoznavanje s procesom kreiranja otvorenog skupa podataka te njegovog dijeljenja u obliku javnog
 git-repozitorija. Za potrebe prve laboratorijske vježbe potrebno je napraviti skup podataka i spremiti taj skup podataka
-u bazu po izboru.
-Postupak izdvajanja podataka u **CSV** i **JSON** formatu mora biti automatiziran skriptom ili shell naredbom.
-U **drugoj laboratorijskoj vježbi** potrebno je napraviti prikaz podataka u strojnom i ljudski čitljivom obliku. Za prikaz podataka u ljudima čitljivom formatu potrebno je podatke prikazati u obliku HTML tablice
-koja se zajedno s obrascem za filtriranje i asinkronim pozivom (AJAX) za dohvaćanje podataka. Dodatno je potrebno ostvariti filtriranje podataka po svim vrijednostima. Za potrebe druge laboratorijske vježbe skup podataka obogaćuje se metapodacima u formatu JSON Schema.
-**Treća laboratorijska vježba** treba skup otvorenih podataka iz prijašnjih laboratorijskih vježbi izložiti kroz RESTful API. API mora imati GET, POST, PUT i DELETE kranje točke. Dodatno je potrebno olakšati čitljivost mogućnosti API-ja koristeći standard OpenAPI.
+u bazu po izboru. Postupak izdvajanja podataka u **CSV** i **JSON** formatu mora biti automatiziran skriptom ili shell naredbom.
+U drugoj laboratorijskoj vježbi potrebno je napraviti prikaz podataka u strojnom i ljudski čitljivom obliku. Za prikaz podataka u ljudima čitljivom formatu potrebno je podatke prikazati u obliku HTML tablice koja se zajedno s obrascem za filtriranje i asinkronim pozivom (AJAX) za dohvaćanje podataka. Dodatno je potrebno ostvariti filtriranje podataka po svim vrijednostima. Za potrebe druge laboratorijske vježbe skup podataka obogaćuje se metapodacima u formatu JSON Schema. Treća laboratorijska vježba treba skup otvorenih podataka iz prijašnjih laboratorijskih vježbi izložiti kroz RESTful API. API mora imati GET, POST, PUT i DELETE kranje točke. Dodatno je potrebno olakšati čitljivost mogućnosti API-ja koristeći standard OpenAPI.
+
 ---
 
 ## Licencija
 
-Ova laboratorijska vježba licencirana je pod [**CC0 1.0 Universal (CC0 1.0)
-**](https://creativecommons.org/publicdomain/zero/1.0/).
+Ova laboratorijska vježba licencirana je pod [CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ### Opis CC0 1.0 Universal
 
