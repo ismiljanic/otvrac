@@ -7,7 +7,10 @@ const fs = require('fs');
 const { Pool } = require('pg');
 const cors = require('cors');
 require('dotenv').config();
-
+const { auth } = require('express-openid-connect');
+const { requiresAuth } = require('express-openid-connect');
+// const axios = require('axios');
+// const session = require('express-session');
 //definiranje aplikacije i porta
 const app = express();
 const PORT = 8080;
@@ -21,9 +24,39 @@ const pool = new Pool({
     port: process.env.DB_PORT,
 });
 
-app.use(cors());
+const config = {
+    authRequired: false,
+    auth0Logout: true,
+    clientID: process.env.AUTH0_CLIENT_ID,
+    issuerBaseURL: process.env.AUTH0_ISSUER_BASE_URL,
+    secret: process.env.AUTH0_SECRET,
+    baseURL: process.env.BASE_URL,
+    session: {
+        rolling: true,
+        rollingDuration: 60 * 60 * 24,
+        absoluteDuration: 60 * 60 * 24 * 7,
+    },
+};
+
+app.use(auth(config));
+app.use(cors({
+    origin: 'http://localhost:3000',
+    credentials: true,
+}));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '../frontend/public')));
+
+app.get('/', (req, res) => {
+    res.send(req.oidc.isAuthenticated() ? 'Logged in' : 'Logged out');
+});
+
+
+app.get('/profile', (req, res, next) => {
+    if (!req.oidc.isAuthenticated()) {
+        return res.status(401).json({ error: 'Unauthorized access' });
+    }
+    res.send(JSON.stringify(req.oidc.user));
+});
 
 /**
  * Standardizirani odgovor za sve rute
@@ -104,7 +137,50 @@ app.get('/api/clubs/:id', async (req, res) => {
             return sendResponse(res, 'ERROR', 'Club not found', {});
         }
 
-        sendResponse(res, 'OK', 'Fetched club details', result.rows[0]);
+        const club = result.rows[0];
+
+        const jsonLd = {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "leagueposition": "position"
+            },
+            "@type": "SportsTeam",
+            "name": club.clubname,
+            "areaServed": {
+                "@type": "Place",
+                "name": club.stadium,
+            },
+            "location": club.location,
+            "foundingDate": club.establishedyear,
+            "coach": {
+                "@type": "Person",
+                "name": club.manager
+            },
+            "aggregateRating": [
+                {
+                    "@type": "AggregateRating",
+                    "ratingValue": club.leagueposition.toString(),
+                    "name": "League Position"
+                },
+                {
+                    "@type": "AggregateRating",
+                    "bestRating": club.wins.toString(),
+                    "name": "Wins"
+                },
+                {
+                    "@type": "AggregateRating",
+                    "worstRating": club.losses.toString(),
+                    "name": "Losses"
+                }
+            ],
+            "numberOfEmployees": club.totalplayers
+        };
+
+
+        sendResponse(res, 'OK', 'Fetched club details', {
+            clubData: club,
+            jsonLd: jsonLd
+        });
     } catch (error) {
         console.error("Error querying database", error);
         sendResponse(res, 'ERROR', 'Error querying database', {});
@@ -142,7 +218,46 @@ app.get('/api/players/:id', async (req, res) => {
             return sendResponse(res, 'ERROR', 'Player not found', {});
         }
 
-        sendResponse(res, 'OK', 'Fetched player details', result.rows[0]);
+        const player = result.rows[0];
+        const jsonLd = {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": player.playername,
+            "jobTitle": player.position,
+            "birthDate": player.age,
+            "nationality": player.nationality,
+            "performerIn": {
+                "@type": "Event",
+                "name": "Ligue 1",
+                "aggregateRating": [
+                    {
+                        "@type": "AggregateRating",
+                        "bestRating": player.goalsscored.toString(),
+                        "name": "Goals Scored"
+                    },
+                    {
+                        "@type": "AggregateRating",
+                        "ratingValue": player.assists.toString(),
+                        "name": "Assists"
+                    },
+                    {
+                        "@type": "AggregateRating",
+                        "ratingValue": player.matchesplayed.toString(),
+                        "name": "Matches Played"
+                    },
+                    {
+                        "@type": "AggregateRating",
+                        "ratingValue": player.salary.toString(),
+                        "name": "Salary"
+                    }
+                ]
+            }
+        };
+
+        sendResponse(res, 'OK', 'Fetched player details', {
+            playerData: player,
+            jsonLd: jsonLd
+        });
     } catch (error) {
         console.error("Error querying database:", error);
         sendResponse(res, 'ERROR', 'Error querying database', {});
@@ -217,6 +332,27 @@ app.get('/api/league-standings', async (req, res) => {
     }
 });
 
+const getFreshData = async () => {
+    try {
+        const query = `
+            SELECT 
+                c.clubname, c.stadium, c.location, c.establishedyear, c.manager,
+                c.leagueposition, c.wins, c.losses, c.totalplayers, c.seasonid,
+                p.playername, p.position, p.age, p.nationality,
+                p.goalsscored, p.assists, p.matchesplayed, p.salary
+            FROM club c
+            JOIN player p ON c.clubid = p.clubid
+            ORDER BY c.leagueposition;
+        `;
+
+        const { rows } = await pool.query(query);
+        return rows;
+    } catch (error) {
+        throw new Error('Error fetching fresh data from database: ' + error.message);
+    }
+};
+
+
 /**
  * Endpoint za preuzimanje podataka u CSV formatu
  *
@@ -232,11 +368,11 @@ app.get('/api/league-standings', async (req, res) => {
  * @returns {File} 200 - CSV datoteka za preuzimanje
  * @returns {Object} 500 - Greška na serveru
  */
-app.post('/download_csv', (req, res) => {
-    const data = req.body;
-    const fileName = req.headers['x-file-name'] || 'filtered_data.csv';
-
+app.get('/download_csv', requiresAuth(), async (req, res) => {
     try {
+        const data = await getFreshData();
+        const fileName = req.headers['x-file-name'] || 'filtered_data.csv';
+
         const headers = [
             'clubname', 'stadium', 'location', 'establishedyear', 'manager',
             'leagueposition', 'wins', 'losses', 'totalplayers', 'seasonid',
@@ -256,7 +392,7 @@ app.post('/download_csv', (req, res) => {
         res.send(csv);
     } catch (error) {
         console.error("Error generating CSV:", error);
-        sendResponse(res, 'ERROR', 'Error generating CSV', {});
+        res.status(500).json({ message: 'Error generating CSV' });
     }
 });
 
@@ -275,17 +411,16 @@ app.post('/download_csv', (req, res) => {
  * @returns {File} 200 - JSON datoteka za preuzimanje
  * @returns {Object} 500 - Greška na serveru
  */
-app.post('/download_json', (req, res) => {
-    const data = req.body;
-    const fileName = req.headers['x-file-name'] || 'filtered_data.json';
-
+app.get('/download_json', requiresAuth(), async (req, res) => {
     try {
+        const data = await getFreshData();
+        const fileName = req.headers['x-file-name'] || 'filtered_data.json';
         res.header('Content-Type', 'application/json');
         res.attachment(fileName);
         res.send(JSON.stringify(data, null, 2));
     } catch (error) {
         console.error("Error generating JSON:", error);
-        sendResponse(res, 'ERROR', 'Error generating JSON', {});
+        res.status(500).json({ message: 'Error generating JSON' });
     }
 });
 
@@ -373,7 +508,7 @@ app.put('/api/players/:id', async (req, res) => {
         clubid
     } = req.body;
 
-    if (!playername || !position || !age || !nationality || goalsscored === undefined || 
+    if (!playername || !position || !age || !nationality || goalsscored === undefined ||
         assists === undefined || matchesplayed === undefined || salary === undefined || !clubid) {
         return res.status(400).json({ message: 'All fields are required.' });
     }
@@ -433,6 +568,14 @@ app.delete('/api/clubs/:clubid', async (req, res) => {
     } catch (error) {
         console.error("Error deleting club:", error);
         sendResponse(res, 'ERROR', 'Error deleting club from the database', {});
+    }
+});
+
+app.use((req, res, next) => {
+    if (!req.oidc.isAuthenticated()) {
+        res.status(401).json({ message: 'Unauthorized. Please log in.' });
+    } else {
+        next();
     }
 });
 

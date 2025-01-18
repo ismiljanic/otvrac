@@ -54,6 +54,7 @@ Cilj prve laboratorijske vježbe je upoznavanje s procesom kreiranja otvorenog s
 git-repozitorija. Za potrebe prve laboratorijske vježbe potrebno je napraviti skup podataka i spremiti taj skup podataka
 u bazu po izboru. Postupak izdvajanja podataka u **CSV** i **JSON** formatu mora biti automatiziran skriptom ili shell naredbom.
 U drugoj laboratorijskoj vježbi potrebno je napraviti prikaz podataka u strojnom i ljudski čitljivom obliku. Za prikaz podataka u ljudima čitljivom formatu potrebno je podatke prikazati u obliku HTML tablice koja se zajedno s obrascem za filtriranje i asinkronim pozivom (AJAX) za dohvaćanje podataka. Dodatno je potrebno ostvariti filtriranje podataka po svim vrijednostima. Za potrebe druge laboratorijske vježbe skup podataka obogaćuje se metapodacima u formatu JSON Schema. Treća laboratorijska vježba treba skup otvorenih podataka iz prijašnjih laboratorijskih vježbi izložiti kroz RESTful API. API mora imati GET, POST, PUT i DELETE kranje točke. Dodatno je potrebno olakšati čitljivost mogućnosti API-ja koristeći standard OpenAPI.
+U četvtoj laboratorijskoj vježbi potrebno je integrirati vlastitu web-aplikaciju s uslugom Auth0 za Single sign-on. Također, potrebno je napraviti zaštićeni dio aplikacije za dohvaćanje profila prijavljenog korisnika. Konačno,  potrebno je semantički opisati barem dva atributa pojedinačnog resursa iz skupa podataka.
 
 ---
 
@@ -81,7 +82,7 @@ Više informacija na [Creative Commons](https://creativecommons.org/publicdomain
 
 ## Verzija skupa podataka
 
-**3.0**
+**4.0**
 
 ## Jezik skupa podataka
 
@@ -101,7 +102,7 @@ Francuska prva nogometna liga
 
 ## Datum zadnjeg ažuriranja
 
-4. siječnja 2025.
+18. siječnja 2025.
 
 ---
 
@@ -179,6 +180,9 @@ Treća tablica u skupu podataka označava sezonu te se sastoji od sljedećih stu
 - aplikacija ne smije prestati s radom u slučaju pogreške ili prikazati
   zadane poruke o pogreškama odabranih radnih okvira
 - dokumentiranje uporabom specifikacije OpenAPI
+- integrirati vlastitu web-aplikaciju s uslugom Auth0 za Single sign-on
+- zaštićeni dio aplikacije za dohvaćanje profila prijavljenog korisnika
+- semantički opisati barem dva atributa pojedinačnog resursa iz skupa podataka
 ---
 ## O implementaciji
 

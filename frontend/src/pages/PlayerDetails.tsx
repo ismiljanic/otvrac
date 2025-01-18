@@ -20,6 +20,7 @@ const PlayerDetails: React.FC = () => {
     const [player, setPlayer] = useState<Player | null>(null);
     const [updatedPlayer, setUpdatedPlayer] = useState<Player | null>(null);
     const [isEditing, setIsEditing] = useState(false);
+    const [jsonLd, setJsonLd] = useState<any | null>(null);
 
     useEffect(() => {
         const fetchPlayer = async () => {
@@ -32,8 +33,9 @@ const PlayerDetails: React.FC = () => {
                 const data = await response.json();
 
                 if (data.status === 'OK') {
-                    setPlayer(data.response);
-                    setUpdatedPlayer(data.response);
+                    setPlayer(data.response.playerData);
+                    setJsonLd(data.response.jsonLd);
+                    setUpdatedPlayer(data.response.playerData);
                 } else {
                     console.error('Failed to fetch player:', data.message);
                 }
@@ -89,6 +91,19 @@ const PlayerDetails: React.FC = () => {
     return (
         <div className="player-details-container">
             <h1>{isEditing ? 'Edit Player' : player.playername}</h1>
+            
+            {jsonLd && (
+                <div>
+                    <p><strong>Position:</strong> {jsonLd.position || player.position}</p>
+                    <p><strong>Age:</strong> {jsonLd.age || player.age}</p>
+                    <p><strong>Nationality:</strong> {jsonLd.nationality || player.nationality}</p>
+                    <p><strong>Goals Scored:</strong> {jsonLd.goalsscored || player.goalsscored}</p>
+                    <p><strong>Assists:</strong> {jsonLd.assists || player.assists}</p>
+                    <p><strong>Matches Played:</strong> {jsonLd.matchesplayed || player.matchesplayed}</p>
+                    <p><strong>Salary:</strong> {jsonLd.salary || player.salary}</p>
+                </div>
+            )}
+            
             {isEditing ? (
                 <form onSubmit={handleSubmit}>
                     <label>
@@ -185,14 +200,6 @@ const PlayerDetails: React.FC = () => {
                 </form>
             ) : (
                 <div>
-                    <p><strong>Position:</strong> {player.position}</p>
-                    <p><strong>Age:</strong> {player.age}</p>
-                    <p><strong>Nationality:</strong> {player.nationality}</p>
-                    <p><strong>Goals Scored:</strong> {player.goalsscored}</p>
-                    <p><strong>Assists:</strong> {player.assists}</p>
-                    <p><strong>Matches Played:</strong> {player.matchesplayed}</p>
-                    <p><strong>Salary:</strong> {player.salary}</p>
-                    <p><strong>Club ID:</strong> {player.clubid}</p>
                     <button onClick={() => setIsEditing(true)} className='editPlayerButton'>Edit Player</button>
                 </div>
             )}

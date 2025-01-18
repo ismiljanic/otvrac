@@ -17,6 +17,7 @@
 .link {
     position: relative;
     width: fit-content;
+    margin-left: 3em;
     text-decoration: none;
     color: black;
     font-size: 1.3em;

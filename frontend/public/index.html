@@ -8,7 +8,7 @@
     <meta name="description"
         content="Otvoreni skup podataka s informacijama o nogometnim klubovima u prvoj francuskoj ligi (Ligue 1) za sezonu 2024./2025., uključujući detalje o klubovima, igračima i sezoni.">
     <meta name="author" content="Ivan Smiljanić">
-    <meta name="version" content="2.0">
+    <meta name="version" content="4.0">
     <meta name="license" content="CC0 1.0 Universal">
 </head>
 
@@ -16,10 +16,27 @@
     <div id="root"></div>
     <div class="download-links">
         <ul>
-            <li><a href="clubs_and_players.csv" download onclick="console.log('CSV download link clicked')">Download Full CSV</a></li>
-            <li><a href="clubs_and_players.json" download onclick="console.log('JSON download link clicked')">Download Full JSON</a></li>
+            <li><a href="clubs_and_players.csv" download id="csv-link"
+                    onclick="console.log('CSV download link clicked')">Download Full CSV</a></li>
+            <li><a href="clubs_and_players.json" download id="json-link"
+                    onclick="console.log('JSON download link clicked')">Download Full JSON</a></li>
+            <li><a href="/profile" id="profile-link" style="display:none;">Go to Your Profile</a></li>
         </ul>
     </div>
+
+    <script>
+        function checkLoginStatus() {
+            const userLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
+            const currentPath = window.location.pathname;
+
+            document.getElementById('csv-link').style.display = 'none';
+            document.getElementById('json-link').style.display = 'none';
+            document.getElementById('profile-link').style.display = 'none';
+        }
+
+        window.onload = checkLoginStatus;
+    </script>
+
 </body>
 
 </html>

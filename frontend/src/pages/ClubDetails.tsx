@@ -42,6 +42,7 @@ const ClubDetails: React.FC = () => {
     const [players, setPlayers] = useState<Player[]>([]);
     const [leagueStandings, setLeagueStandings] = useState<LeagueStanding[]>([]);
     const [visiblePositions, setVisiblePositions] = useState<Set<string>>(new Set());
+    const [jsonLd, setJsonLd] = useState<any>(null);
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -49,7 +50,8 @@ const ClubDetails: React.FC = () => {
             .then((response) => response.json())
             .then((data) => {
                 if (data.status === 'OK') {
-                    setClub(data.response);
+                    setClub(data.response.clubData);
+                    setJsonLd(data.response.jsonLd);
                 } else {
                     console.error('Failed to fetch club details:', data.message);
                 }
@@ -110,11 +112,16 @@ const ClubDetails: React.FC = () => {
     return (
         <div className="club-details-container">
             <h1>{club.clubname}</h1>
-            <p><strong>Stadium:</strong> {club.stadium}</p>
-            <p><strong>Location:</strong> {club.location}</p>
-            <p><strong>Established:</strong> {club.establishedyear}</p>
-            <p><strong>Manager:</strong> {club.manager}</p>
-            <p><strong>Total Players:</strong> {club.totalplayers}</p>
+            
+            {jsonLd && (
+                <>
+                    <p><strong>Stadium:</strong> {jsonLd.areaServed?.name || club.stadium}</p>
+                    <p><strong>Location:</strong> {jsonLd.location || club.location}</p>
+                    <p><strong>Established:</strong> {club.establishedyear}</p>
+                    <p><strong>Manager:</strong> {club.manager}</p>
+                    <p><strong>Total Players:</strong> {club.totalplayers}</p>
+                </>
+            )}
 
             <div style={{ marginTop: '20px' }}>
                 <Link to="/league-standings" className="linkToLeagueStandings">
